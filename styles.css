@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.lista-cadastro {
+    display: flex;
+    margin: 20px 0;
+    padding: 20px;
+    justify-content: center;
+}
+
+.lista-cadastro input[type=text] {
+    flex: 1;
+    height: 30px;
+    padding-left: 20px;
+    max-width: 600px;
+}
+
+.lista-cadastro input[type=submit] {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.lista-produto-single {
+    padding: 10px 0;
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+
+.lista-produto-single h3 {
+    flex: 1;
+    padding: 0 20px;
+}
+
+h3.name-produto {
+    font-size: 27px;
+}
+
+h3.price-produto {
+    text-align: right;
+    font-size: 17px;
+}
+
+h3.price-produto>span {
+    background-color: #ce9700;
+    padding: 8px 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+.soma-produto {
+    margin: 20px;
+}
+
+.botao {
+    text-align: center;
+}
+
+button[name=limpar] {
+    padding: 5px;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+}
