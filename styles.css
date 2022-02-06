@@ -121,9 +121,11 @@ button[name=limpar] {
     }
     h3.amount-produto {
         font-size: 18px;
+        text-align: center;
     }
     h3.name-produto {
         font-size: 18px;
+        text-align: center;
     }
     h3.price-produto {
         font-size: 18px;
